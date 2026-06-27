@@ -1,0 +1,8 @@
+project: typst
+target: html
+testsuite:
+  - file:///mayhem/mayhem/testsuite/html
+cmds:
+  - cmd: /mayhem/html
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/typst.dict

@@ -1,0 +1,8 @@
+project: typst
+target: parse
+testsuite:
+  - file:///mayhem/mayhem/testsuite/parse
+cmds:
+  - cmd: /mayhem/parse
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/typst.dict

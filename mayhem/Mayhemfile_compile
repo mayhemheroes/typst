@@ -1,0 +1,8 @@
+project: typst
+target: compile
+testsuite:
+  - file:///mayhem/mayhem/testsuite/paged
+cmds:
+  - cmd: /mayhem/compile
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/typst.dict
